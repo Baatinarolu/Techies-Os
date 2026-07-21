@@ -1,0 +1,29 @@
+room_number,display_name,telegram_handle,type,tier,dynamic_access,owner,backup_owner,created
+1,"🏛 The Office",techies_the_office,Group,Tier 4,No,,,FALSE
+2,"📢 Announcements",techies_announcements,Channel,Tier 1,No,,,FALSE
+3,"💡 Idea Lab",techies_idea_lab,Group,Tier 2,No,,,FALSE
+4,"✅ Task Center",techies_task_center,Group,Tier 3,Yes,,,FALSE
+5,"🚀 Project Command",techies_project_command,Group,Tier 3,Yes,,,FALSE
+6,"🚀 Project Follow-Up",techies_project_followup,Group,Tier 3,Yes,,,FALSE
+7,"🤖 AI & Automation Lab",techies_ai_automation_lab,Group,Tier 2,No,,,FALSE
+8,"💻 Software Development",techies_software_dev,Group,Tier 3,Yes,,,FALSE
+9,"🎨 Design Studio",techies_design_studio,Group,Tier 3,Yes,,,FALSE
+10,"🎓 Learning Hub",techies_learning_hub,Group,Tier 2,No,,,FALSE
+11,"📚 Resource Library",techies_resource_library,Channel,Tier 2,No,,,FALSE
+12,"🔬 Research Center",techies_research_center,Group,Tier 2,No,,,FALSE
+13,"📈 Marketing & Growth",techies_marketing_growth,Group,Tier 3,Yes,,,FALSE
+14,"💰 Business & Finance",techies_business_finance,Group,Tier 4,No,,,FALSE
+15,"👥 Human Resources",techies_human_resources,Group,Tier 4,Yes,,,FALSE
+16,"🛡 Cybersecurity",techies_cybersecurity,Group,Tier 3,Yes,,,FALSE
+17,"🆘 Help Desk",techies_help_desk,Group,Tier 2,No,,,FALSE
+18,"🤝 Collaboration Hub",techies_collaboration_hub,Group,Tier 3,Yes,,,FALSE
+19,"🏆 Showcase",techies_showcase,Channel,Tier 1,No,,,FALSE
+20,"🎯 Goals & Accountability",techies_goals_accountability,Group,Tier 2,No,,,FALSE
+21,"🗳 Polls & Decisions",techies_polls_decisions,Group,Tier 2,Sometimes,,,FALSE
+22,"📅 Events & Calendar",techies_events_calendar,Channel,Tier 2,No,,,FALSE
+23,"☕ Lounge",techies_lounge,Group,Tier 2,No,,,FALSE
+24,"📚 Knowledge Base",techies_knowledge_base,Channel,Tier 2,No,,,FALSE
+25,"🏛 Founder's Office",techies_founders_office,Group,Tier 4,Yes,,,FALSE
+26,"📈 KPI Dashboard",techies_kpi_dashboard,Channel,Tier 4,Yes,,,FALSE
+27,"🧪 Testing Sandbox",techies_testing_sandbox,Group,Tier 3,Yes,,,FALSE
+28,"💬 Community Feedback",techies_community_feedback,Group,Tier 2,No,,,FALSE
