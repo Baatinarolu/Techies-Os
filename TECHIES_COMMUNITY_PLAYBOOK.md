@@ -101,10 +101,126 @@ This is the architecture baseline for a Telegram community starting at ~20 membe
 - **Tier 4:** Use the smallest possible membership. Review membership monthly and immediately after role changes.
 - **Dynamic-room rule:** every dynamic room should maintain a simple access register: `person | role | scope/project | granted by | review date | removed date`.
 
-## Naming convention — awaiting your selection
+## Deliverable 3 — Naming convention options
 
-The next deliverable is the three-option naming system (room names, emoji prefixes, TECHIES prefix choice, and Telegram-safe handles). **Please choose an option before I continue with Deliverables 3–10.**
+You were right: the options were referenced before being listed. Here are the three complete options. Telegram handles below use only lowercase letters, numbers, and underscores; replace them with the actual public usernames when creating the rooms. Telegram usernames are unique, so check availability during setup.
 
-**Recommended direction:** Option B — a clean display-name system with a consistent emoji prefix and `techies_...` handles. It keeps the Telegram UI readable, makes rooms scannable, and preserves a recognizable URL namespace without making every visible room name feel repetitive.
+### Option A — Branded everywhere
 
-Reply with **Option A, Option B, or Option C** (or request a modification), and I will continue with the naming convention and the remaining implementation playbook.
+- **Display format:** `🔧 TECHIES · Room Name`
+- **Emoji system:** `🏛` leadership/governance, `📢` broadcast, `💡` ideas, `✅` tasks, `🚀` projects, `🤖` AI/automation, `💻` engineering, `🎨` design, `🎓` learning, `📚` resources/knowledge, `🔬` research, `📈` growth/KPIs, `💰` finance, `👥` people, `🛡` security, `🆘` support, `🤝` collaboration, `🏆` showcase, `🎯` goals, `🗳` decisions, `📅` events, `☕` social, `🧪` testing, `💬` feedback.
+- **Visible `TECHIES` prefix:** Yes.
+- **Best for:** Strong brand recall and a directory that is easy to recognize in forwarded messages.
+
+| # | Room name | Suggested handle |
+|---:|---|---|
+| 1 | `🏛 TECHIES · The Office` | `techies_the_office` |
+| 2 | `📢 TECHIES · Announcements` | `techies_announcements` |
+| 3 | `💡 TECHIES · Idea Lab` | `techies_idea_lab` |
+| 4 | `✅ TECHIES · Task Center` | `techies_task_center` |
+| 5 | `🚀 TECHIES · Project Command` | `techies_project_command` |
+| 6 | `🚀 TECHIES · Project Follow-Up` | `techies_project_followup` |
+| 7 | `🤖 TECHIES · AI & Automation Lab` | `techies_ai_automation_lab` |
+| 8 | `💻 TECHIES · Software Development` | `techies_software_dev` |
+| 9 | `🎨 TECHIES · Design Studio` | `techies_design_studio` |
+| 10 | `🎓 TECHIES · Learning Hub` | `techies_learning_hub` |
+| 11 | `📚 TECHIES · Resource Library` | `techies_resource_library` |
+| 12 | `🔬 TECHIES · Research Center` | `techies_research_center` |
+| 13 | `📈 TECHIES · Marketing & Growth` | `techies_marketing_growth` |
+| 14 | `💰 TECHIES · Business & Finance` | `techies_business_finance` |
+| 15 | `👥 TECHIES · Human Resources` | `techies_human_resources` |
+| 16 | `🛡 TECHIES · Cybersecurity` | `techies_cybersecurity` |
+| 17 | `🆘 TECHIES · Help Desk` | `techies_help_desk` |
+| 18 | `🤝 TECHIES · Collaboration Hub` | `techies_collaboration_hub` |
+| 19 | `🏆 TECHIES · Showcase` | `techies_showcase` |
+| 20 | `🎯 TECHIES · Goals & Accountability` | `techies_goals_accountability` |
+| 21 | `🗳 TECHIES · Polls & Decisions` | `techies_polls_decisions` |
+| 22 | `📅 TECHIES · Events & Calendar` | `techies_events_calendar` |
+| 23 | `☕ TECHIES · Lounge` | `techies_lounge` |
+| 24 | `📚 TECHIES · Knowledge Base` | `techies_knowledge_base` |
+| 25 | `🏛 TECHIES · Founder's Office` | `techies_founders_office` |
+| 26 | `📈 TECHIES · KPI Dashboard` | `techies_kpi_dashboard` |
+| 27 | `🧪 TECHIES · Testing Sandbox` | `techies_testing_sandbox` |
+| 28 | `💬 TECHIES · Community Feedback` | `techies_community_feedback` |
+
+### Option B — Clean workspace (recommended)
+
+- **Display format:** `Emoji · Room Name` — no repeated brand prefix.
+- **Emoji system:** Use the same functional emoji map as Option A.
+- **Visible `TECHIES` prefix:** No; reserve `TECHIES` for the community title, folder name, and handles.
+- **Best for:** A professional, uncluttered Telegram sidebar while retaining brand ownership in links.
+
+| # | Room name | Suggested handle |
+|---:|---|---|
+| 1 | `🏛 The Office` | `techies_the_office` |
+| 2 | `📢 Announcements` | `techies_announcements` |
+| 3 | `💡 Idea Lab` | `techies_idea_lab` |
+| 4 | `✅ Task Center` | `techies_task_center` |
+| 5 | `🚀 Project Command` | `techies_project_command` |
+| 6 | `🚀 Project Follow-Up` | `techies_project_followup` |
+| 7 | `🤖 AI & Automation Lab` | `techies_ai_automation_lab` |
+| 8 | `💻 Software Development` | `techies_software_dev` |
+| 9 | `🎨 Design Studio` | `techies_design_studio` |
+| 10 | `🎓 Learning Hub` | `techies_learning_hub` |
+| 11 | `📚 Resource Library` | `techies_resource_library` |
+| 12 | `🔬 Research Center` | `techies_research_center` |
+| 13 | `📈 Marketing & Growth` | `techies_marketing_growth` |
+| 14 | `💰 Business & Finance` | `techies_business_finance` |
+| 15 | `👥 Human Resources` | `techies_human_resources` |
+| 16 | `🛡 Cybersecurity` | `techies_cybersecurity` |
+| 17 | `🆘 Help Desk` | `techies_help_desk` |
+| 18 | `🤝 Collaboration Hub` | `techies_collaboration_hub` |
+| 19 | `🏆 Showcase` | `techies_showcase` |
+| 20 | `🎯 Goals & Accountability` | `techies_goals_accountability` |
+| 21 | `🗳 Polls & Decisions` | `techies_polls_decisions` |
+| 22 | `📅 Events & Calendar` | `techies_events_calendar` |
+| 23 | `☕ Lounge` | `techies_lounge` |
+| 24 | `📚 Knowledge Base` | `techies_knowledge_base` |
+| 25 | `🏛 Founder's Office` | `techies_founders_office` |
+| 26 | `📈 KPI Dashboard` | `techies_kpi_dashboard` |
+| 27 | `🧪 Testing Sandbox` | `techies_testing_sandbox` |
+| 28 | `💬 Community Feedback` | `techies_community_feedback` |
+
+### Option C — Compact operating codes
+
+- **Display format:** `Emoji CODE · Short Room Name`.
+- **Emoji system:** `🔐` restricted rooms, `📣` broadcast, `⚙️` operations, `🧠` knowledge/learning, `🧩` collaboration, `🌱` community/growth, `🧪` testing.
+- **Visible `TECHIES` prefix:** No; use `TECHIES` in the Telegram folder and a short `tc_` handle namespace.
+- **Best for:** A high-volume workspace where short, scannable codes make room switching faster.
+
+| # | Room name | Suggested handle |
+|---:|---|---|
+| 1 | `🔐 OFF · The Office` | `tc_office` |
+| 2 | `📣 ANN · Announcements` | `tc_announcements` |
+| 3 | `🌱 IDEA · Idea Lab` | `tc_idea_lab` |
+| 4 | `⚙️ TASK · Task Center` | `tc_task_center` |
+| 5 | `⚙️ CMD · Project Command` | `tc_project_command` |
+| 6 | `⚙️ FUP · Project Follow-Up` | `tc_project_followup` |
+| 7 | `🧠 AI · AI & Automation Lab` | `tc_ai_automation_lab` |
+| 8 | `⚙️ DEV · Software Development` | `tc_software_dev` |
+| 9 | `🧩 UX · Design Studio` | `tc_design_studio` |
+| 10 | `🧠 LEARN · Learning Hub` | `tc_learning_hub` |
+| 11 | `🧠 RES · Resource Library` | `tc_resource_library` |
+| 12 | `🧠 RSRCH · Research Center` | `tc_research_center` |
+| 13 | `🌱 GROW · Marketing & Growth` | `tc_marketing_growth` |
+| 14 | `🔐 FIN · Business & Finance` | `tc_business_finance` |
+| 15 | `🔐 PEOPLE · Human Resources` | `tc_human_resources` |
+| 16 | `🔐 SEC · Cybersecurity` | `tc_cybersecurity` |
+| 17 | `⚙️ HELP · Help Desk` | `tc_help_desk` |
+| 18 | `🧩 COLLAB · Collaboration Hub` | `tc_collaboration_hub` |
+| 19 | `🌱 SHOW · Showcase` | `tc_showcase` |
+| 20 | `🌱 GOALS · Goals & Accountability` | `tc_goals_accountability` |
+| 21 | `⚙️ DECIDE · Polls & Decisions` | `tc_polls_decisions` |
+| 22 | `🌱 EVENTS · Events & Calendar` | `tc_events_calendar` |
+| 23 | `🌱 LOUNGE · Lounge` | `tc_lounge` |
+| 24 | `🧠 KB · Knowledge Base` | `tc_knowledge_base` |
+| 25 | `🔐 FOUNDER · Founder's Office` | `tc_founders_office` |
+| 26 | `⚙️ KPI · KPI Dashboard` | `tc_kpi_dashboard` |
+| 27 | `🧪 TEST · Testing Sandbox` | `tc_testing_sandbox` |
+| 28 | `🌱 FEEDBACK · Community Feedback` | `tc_community_feedback` |
+
+### Recommendation
+
+Choose **Option B**. It is the best balance for a 20–200-person community: the visible names remain readable and human, the emoji makes the room function obvious at a glance, and the `techies_...` handles make links consistent and branded. Option A is strongest if brand repetition is a priority; Option C is strongest for an operations-heavy team comfortable with codes.
+
+**I will pause here again. Choose Option A, B, or C (or request edits), and I will then continue with the bot/tool stack and Deliverables 5–10.**
